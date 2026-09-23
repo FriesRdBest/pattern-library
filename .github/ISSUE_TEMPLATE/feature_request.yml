@@ -1,0 +1,44 @@
+name: Feature request
+description: Suggest a new pattern or improvement
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a feature. Please fill out the fields below.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: What product, customer, or workflow problem would this address?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Proposed outcome
+      description: Describe the pattern or improvement you would like to see.
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Why it matters
+      description: Explain the expected product, customer, or operational value.
+    validations:
+      required: true
+  - type: textarea
+    id: approach
+    attributes:
+      label: Suggested approach
+      description: Optional outline of the pattern structure or references.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: What other approaches or workarounds have you considered?
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add examples, mockups, or supporting detail. Do not include confidential data.
